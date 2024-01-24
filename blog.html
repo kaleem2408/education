@@ -1,0 +1,151 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial- scale=1.0">
+        <link rel="icon" href="images/user2.jpg" type="image/gif/png">
+        <title>
+            Oxford university
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+                </div> 
+                <i class="fa fa-bars" onclick="showMenu()"></i>  
+            </nav>
+            <h1>Our courses & online programs for 2022</h1>  
+        </section>
+
+    <!-------blog page content----------->
+
+    <section class="blog content">
+
+        <div class="row">
+            <div class="blog-left">
+            <img src="images/certificate.jpg" height="500" width="500">
+            <h2>
+                Our certificate & online programs for 2022
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Eligendi nobis molestiae beatae, praesentium ex vero, illum soluta minima quia ducimus iusto 
+                 placeat non optio explicabo tempora atque autem iste dicta?</p>
+                 <br>
+                 <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Eligendi nobis molestiae beatae, praesentium ex vero, illum soluta minima quia ducimus iusto 
+                 placeat non optio explicabo tempora atque autem iste dicta?
+                 </p>
+                 <br>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi nobis molestiae beatae, praesentium ex vero, illum soluta minima quia ducimus iusto 
+                    placeat non optio explicabo tempora atque autem iste dicta?</p>
+                    <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Eligendi nobis molestiae beatae, praesentium ex vero, illum soluta minima quia ducimus iusto 
+                        placeat non optio explicabo tempora atque autem iste dicta?</p>
+                        <div class="comment box">
+                                                 
+                            <h3>Leave a comment</h3>
+
+                        <form class="comment-form"></form>
+                        <input type="text" placeholder="Enter Name"><p></p>
+                        <input type="email" placeholder="Enter email"><p></p>
+                        <textarea rows="5"placeholder="Your comment">
+                        </textarea>
+                        <button type="Submit" class="hero-btn red-btn">Post Comment</button>
+                        </div><p></p>
+            <div class="blog-right">
+                <h3>Post categories</h3>
+            </div>
+            <span>Business Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Data science</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Computer science</span>
+            <span>14</span>
+        </div>
+
+    </section>
+
+   
+  
+
+    <!------Footer----------->
+
+    <section class="footer">
+        <h4>
+            About Us
+        </h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus mollitia.<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit quibusdam 
+        </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-Twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div><br>
+    <hr>
+    <p>copy right &copy;<i class="fa fa-fa-heart-o"></i> by abdul kaleem</p>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+        <!------------------------javascript to toggle menu------------------>
+
+        <script>
+
+            var navLinks  = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+                  
+
+
+
+
+    </body>
+</html>
